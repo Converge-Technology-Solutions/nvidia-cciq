@@ -1,6 +1,6 @@
 # Contact Center Insights
 
-TODO: Add a project description
+This repository serves as a demonstration of the Insights IQ service, showcasing its core functionality of extracting actionable insights from customer-agent interactions. The sample project focuses on a single call recording, illustrating the end-to-end process of transcription and AI-driven analysis.
 
 ## Key Features
 
