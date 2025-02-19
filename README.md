@@ -9,7 +9,7 @@ This repository serves as a demonstration of the Insights IQ service, showcasing
 
 ## Architecture
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](architecture.png)
 
 Contact Center Insights generation involves two steps:
 
