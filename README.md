@@ -9,6 +9,8 @@ This repository serves as a demonstration of the Insights IQ service, showcasing
 
 ## Architecture
 
+![alt text](https://github.com/Converge-Technology-Solutions/nvidia-cciq/blob/main/architecture/Insights%20IQ%20Solution.png)
+
 Contact Center Insights generation involves two steps:
 
 1. **Transcription with speaker Diarization**
