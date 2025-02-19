@@ -1,0 +1,90 @@
+{
+    "transcript": {
+        "utterances": [
+            {
+                "time": 2800,
+                "speaker": 0,
+                "spoken_words": "<transcribed text for speaker 0>"
+            },
+            {
+                "time": 7600,
+                "speaker": 1,
+                "spoken_words": "<transcribed text for speaker 1>"
+            },
+            {
+                "time": 12480,
+                "speaker": 0,
+                "spoken_words": "<transcribed text for speaker 0>"
+            },
+            {
+                "time": 14080,
+                "speaker": 1,
+                "spoken_words": "<transcribed text for speaker 1>"
+            }
+        ],
+        "call_duration": 15000
+    },
+    "entities": {
+        "agent_name": "<agent name if detected>",
+        "customer_name": "<customer name if detected>",
+        "agent_speaker": "<speaker number for agent as int>",
+        "customer_speaker": "<speaker number for customer as int>",
+        "reason": "<reason for call>",
+        "topic": "<topic of conversation>",
+        "subtopic": "<subtopic of conversation>"
+    },
+    "evaluation": {
+        "greeting": {
+            "value": 1,
+            "justification": "<justification for - greeting: Did the agent greet the customer?>"
+        },
+        "hold": {
+            "value": 0,
+            "justification": "<justification for - hold: Did the agent put the customer on hold?>"
+        },
+        "ticket": {
+            "value": 0,
+            "justification": "<justification for - ticket: Did the agent create a ticket?>"
+        },
+        "listening": {
+            "value": 8,
+            "justification": "<justification for - listening: How well did the agent listen to the customer?>"
+        },
+        "understanding": {
+            "value": 7,
+            "justification": "<justification for - understanding: How well did the agent understand the customer?>"
+        },
+        "tone": {
+            "value": 9,
+            "justification": "<justification for - tone: How was the agent's tone?>"
+        },
+        "proactivity": {
+            "value": 6,
+            "justification": "<justification for - proactivity: How proactive was the agent?>"
+        },
+        "clarity": {
+            "value": 8,
+            "justification": "<justification for - clarity: How clear was the agent's communication?>"
+        },
+        "resolved": {
+            "value": 0,
+            "justification": "<justification for - resolved: Was the issue resolved?>"
+        },
+        "customer_sentiment": {
+            "value": 4,
+            "justification": "<justification for - customer_sentiment: Customer sentiment score from 1 to 10>"
+        },
+        "escalation": {
+            "value": 0,
+            "justification": "<justification for - escalation: Was the call escalated?>"
+        },
+        "agent_feedback": {
+            "value": "<generated feedback>",
+            "justification": "<justification for - agent_feedback: Feedback for the agent for handling similar calls in the future>"
+        },
+        "escalation_reason": {
+            "value": "<generated escalation reason>",
+            "justification": "<justification for - escalation_reason: If the call was escalated, provide the reason for escalation>"
+        }
+    }
+}
